@@ -74,6 +74,52 @@ nav ul li a:hover {
     width:60vh;
 }
 
+/* Education */
+.rental-manager-progress-bar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 6px solid #024a92;
+    padding-top: 15px;
+    margin-top: 55px;
+}
+  
+.rental-manager-progress-bar-container div {
+    background-color:white;
+    font-weight: bold;
+    color: #7fb2e4;
+    border: 2px solid #024a92;
+    margin-top: -45px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#education {
+    margin-top: 15%;
+}
+
+#education .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1 {
+    margin-left: 1%;
+    width: 388px;
+    text-align: center;
+}
+
+.card1 img {
+    margin-top: 2%;
+    height:60px;
+    border-radius: 4px;
+}
+
+/* Experience */
 .experiences {
     margin-top: 15%;
 }
@@ -118,7 +164,7 @@ nav ul li a:hover {
     text-align: left;
 }
 
-#sec2 h1 {
+#projects h1 {
     margin-top: 10%;
     margin-bottom: -3%;
 }
@@ -157,6 +203,13 @@ nav ul li a:hover {
     position: absolute;
     text-align: center;
     width: 100%;
+}
+
+.card .back ul li{
+    font-size: 1rem;
+    text-align: left;
+    color: black;
+    margin-bottom: 10px;
 }
 
 .card .front img {
